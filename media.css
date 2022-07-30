@@ -1,0 +1,60 @@
+
+/* small resolutions */
+@media screen and (max-width: 768px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em 0em;
+    }
+
+    .container {
+        grid-template-areas:
+        'profile'
+        'work'
+        'play'
+        'study'
+        'exercise'
+        'social'
+        'selfcare'
+        ;
+        max-width: 300px;
+        height: 100vh;
+    }
+
+    .profile-container {
+        flex-direction: row;
+        align-items: center;
+        font-size: 0.8em;
+    }
+
+    .time-options {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .stat-hours {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .stat-hours h1 {
+        font-size: 1.5em;
+    }
+
+    .profile-desc {
+        margin-left: 20px;
+    }
+
+    .profile-desc h1 {
+        font-size: 1.5em;
+    }
+    
+    .profile-desc span {
+        font-size: 1em;
+    }
+
+}
